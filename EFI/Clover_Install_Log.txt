@@ -1,0 +1,29 @@
+
+Clover EFI installer log - Fri Mar 14 14:16:28 NOVT 2014
+Installer version: v2k r2636 EFI bootloader
+======================================================
+/dev/disk0
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *500.1 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                  Apple_HFS Macintosh HD            499.2 GB   disk0s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
+/dev/disk1
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *120.0 GB   disk1
+   1:                        EFI EFI                     209.7 MB   disk1s1
+   2:                  Apple_HFS 10.9.2                  119.7 GB   disk1s2
+======================================================
+Backing up EFI files
+
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/10.9.2 1
+Stage 1 - Don't write any of boot1h2, boot1f32alt to /Volumes/10.9.2 1
+
+Theme 'metal' (defined in config.plist) not found !
+Using default theme 'bootcamp'
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================

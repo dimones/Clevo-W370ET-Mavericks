@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>13C40z</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>AppleUSBCDCWCM</string>
+	<key>CFBundleGetInfoString</key>
+	<string>4.2.1b5, USB CDC WCM driver</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.driver.AppleUSBCDCWCM</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>AppleUSBCDCWCM</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>4.2.1</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>4.2.1b5</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>5A2053</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>13C40z</string>
+	<key>DTSDKName</key>
+	<string></string>
+	<key>DTXcode</key>
+	<string>0501</string>
+	<key>DTXcodeBuild</key>
+	<string>5A2053</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>AppleUSBCDCWCM</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.driver.AppleUSBCDCWCM</string>
+			<key>IOClass</key>
+			<string>AppleUSBCDCWCM</string>
+			<key>IOProviderClass</key>
+			<string>IOUSBInterface</string>
+			<key>bInterfaceClass</key>
+			<integer>2</integer>
+			<key>bInterfaceSubClass</key>
+			<integer>8</integer>
+		</dict>
+	</dict>
+	<key>OSBundleCompatibleVersion</key>
+	<string>1.8</string>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.iokit.IOUSBFamily</key>
+		<string>3.5.0b1</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>10.0.0d1</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>10.0.0d1</string>
+	</dict>
+</dict>
+</plist>

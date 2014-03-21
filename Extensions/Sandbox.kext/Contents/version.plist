@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildAliasOf</key>
+	<string>Sandbox</string>
+	<key>BuildVersion</key>
+	<string>8</string>
+	<key>CFBundleShortVersionString</key>
+	<string>278.11</string>
+	<key>CFBundleVersion</key>
+	<string>278.11</string>
+	<key>ProjectName</key>
+	<string>Sandbox_executables</string>
+	<key>SourceVersion</key>
+	<string>278011000000000</string>
+</dict>
+</plist>

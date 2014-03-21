@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>13C10</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>SCSITaskLib</string>
+	<key>CFBundleGetInfoString</key>
+	<string>3.6.6, Copyright Apple Inc. 1999-2013</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.iokit.SCSITaskLib</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>SCSITaskLib</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>3.6.6</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>3.6.6</string>
+	<key>CFPlugInDynamicRegistration</key>
+	<string>NO</string>
+	<key>CFPlugInFactories</key>
+	<dict>
+		<key>63326D72-08A2-11D5-865F-0030657D052A</key>
+		<string>SCSITaskLibFactory</string>
+	</dict>
+	<key>CFPlugInTypes</key>
+	<dict>
+		<key>7D66678E-08A2-11D5-A1B8-0030657D052A</key>
+		<array>
+			<string>63326D72-08A2-11D5-865F-0030657D052A</string>
+		</array>
+		<key>97ABCF2C-23CC-11D5-A0E8-003065704866</key>
+		<array>
+			<string>63326D72-08A2-11D5-865F-0030657D052A</string>
+		</array>
+	</dict>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>5A2053</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>13C10</string>
+	<key>DTSDKName</key>
+	<string></string>
+	<key>DTXcode</key>
+	<string>0501</string>
+	<key>DTXcodeBuild</key>
+	<string>5A2053</string>
+</dict>
+</plist>
