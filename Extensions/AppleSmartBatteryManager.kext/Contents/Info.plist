@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>13C40z</string>
+	<string>11D50</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
@@ -13,52 +13,47 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>AppleSmartBatteryManagerKEXT</string>
+	<string>AppleSmartBatteryManager</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>161.0.0</string>
+	<string>1.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>161.0.0</string>
+	<string>1</string>
 	<key>DTCompiler</key>
-	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<string>com.apple.compilers.llvmgcc42</string>
 	<key>DTPlatformBuild</key>
-	<string>5A2053</string>
+	<string>4B110</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>13C40z</string>
+	<string>11A511a</string>
 	<key>DTSDKName</key>
-	<string></string>
+	<string>macosx10.7</string>
 	<key>DTXcode</key>
-	<string>0501</string>
+	<string>0410</string>
 	<key>DTXcodeBuild</key>
-	<string>5A2053</string>
+	<string>4B110</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>IOSmartBatteryManager</key>
+		<key>ACPI Battery Manager</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleSmartBatteryManager</string>
 			<key>IOClass</key>
 			<string>AppleSmartBatteryManager</string>
-			<key>IOPropertyMatch</key>
-			<dict>
-				<key>IOSMBusSmartBatteryManager</key>
-				<true/>
-			</dict>
+			<key>IONameMatch</key>
+			<string>PNP0C0A</string>
 			<key>IOProviderClass</key>
-			<string>IOSMBusController</string>
+			<string>IOACPIPlatformDevice</string>
 		</dict>
 	</dict>
 	<key>OSBundleLibraries</key>
 	<dict>
 		<key>com.apple.iokit.IOACPIFamily</key>
 		<string>1.2.0</string>
-		<key>com.apple.iokit.IOSMBusFamily</key>
-		<string>1.0.0</string>
 		<key>com.apple.kpi.bsd</key>
 		<string>8.3.1</string>
 		<key>com.apple.kpi.iokit</key>
